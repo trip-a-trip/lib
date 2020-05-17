@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/trip-a-trip/lib/compare/v1.2.0...v1.3.0) (2020-05-17)
+
+### Features
+
+- add links to venue ([1de6af0](https://github.com/trip-a-trip/lib/commit/1de6af08a870f3782ac3e013ddcfcb865f09b8b6))
+
 ## [1.2.0](https://github.com/trip-a-trip/lib/compare/v1.1.2...v1.2.0) (2020-05-17)
 
 ### Features
