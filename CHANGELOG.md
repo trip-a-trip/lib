@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/trip-a-trip/lib/compare/v1.0.2...v1.1.0) (2020-05-17)
+
+### Features
+
+- **eat:** add eat client ([a89a340](https://github.com/trip-a-trip/lib/commit/a89a340e0ea242ea3b45d637833f74d0166f5217))
+
 ### [1.0.2](https://github.com/trip-a-trip/lib/compare/v1.0.1...v1.0.2) (2020-05-17)
 
 ### Bug Fixes
