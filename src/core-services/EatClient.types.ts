@@ -10,6 +10,11 @@ export interface Coordinates {
   longitude: number;
 }
 
+export interface Link {
+  title: string;
+  url: string;
+}
+
 export interface Venue {
   id: string;
   name: string;
@@ -19,4 +24,5 @@ export interface Venue {
   kind: VenueKind[];
   address?: string;
   coordinates: Coordinates;
+  links: Link[];
 }
