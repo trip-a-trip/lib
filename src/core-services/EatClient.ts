@@ -1,6 +1,6 @@
 import Axios, { AxiosInstance } from 'axios';
 
-import { Venue } from './EatClient.types';
+import { Venue, Coordinates } from './EatClient.types';
 
 export class EatClient {
   private readonly http: AxiosInstance;
