@@ -11,6 +11,7 @@ export interface Coordinates {
 }
 
 export interface Venue {
+  id: string;
   name: string;
   description?: string;
   isExpensive: boolean;
