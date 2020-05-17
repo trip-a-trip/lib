@@ -12,7 +12,7 @@ export class UserClient {
   }
 
   async signUp(): Promise<string> {
-    const { data } = await this.http.post<SignUpResponse>('/v1/sign-up');
+    const { data } = await this.http.post<SignUpResponse>('/v1/sign-up', {});
 
     return data.userId;
   }
