@@ -18,11 +18,14 @@ export class EatClient {
     params: VenueRequiestOptions = {},
   ): Promise<Venue | null> {
     try {
-      const query = stringify({
-        ...coordinates,
-        userId,
-        skipIds: params.skipIds || [],
-      });
+      const query = stringify(
+        {
+          ...coordinates,
+          userId,
+          skipIds: params.skipIds || [],
+        },
+        { indices: false },
+      );
 
       const { data } = await this.http.get<Venue>(`/v1/venue?${query}`);
 
