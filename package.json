@@ -17,6 +17,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@solid-soda/tsn": "^1.2.3",
+    "@types/qs": "^6.9.2",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "@yarnpkg/pnpify": "^2.0.0-rc.22",
@@ -61,7 +62,8 @@
     }
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "qs": "^6.9.4"
   },
   "publishConfig": {
     "access": "public"

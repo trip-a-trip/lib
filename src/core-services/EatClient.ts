@@ -1,6 +1,7 @@
 import Axios, { AxiosInstance } from 'axios';
+import { stringify } from 'qs';
 
-import { Venue, Coordinates } from './EatClient.types';
+import { Venue, Coordinates, VenueRequiestOptions } from './EatClient.types';
 
 export class EatClient {
   private readonly http: AxiosInstance;
@@ -14,11 +15,16 @@ export class EatClient {
   async findVenue(
     userId: string,
     coordinates: Coordinates,
+    params: VenueRequiestOptions = {},
   ): Promise<Venue | null> {
     try {
-      const { data } = await this.http.get<Venue>(
-        `/v1/venue?userId=${userId}&latitude=${coordinates.latitude}&longitude=${coordinates.longitude}`,
-      );
+      const query = stringify({
+        userId,
+        ...coordinates,
+        ...params,
+      });
+
+      const { data } = await this.http.get<Venue>(`/v1/venue?${query}`);
 
       return data;
     } catch (error) {

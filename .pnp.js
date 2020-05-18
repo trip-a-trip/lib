@@ -42,6 +42,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:1.2.3"
       ],
       [
+        "@types/qs",
+        "npm:6.9.2"
+      ],
+      [
         "@typescript-eslint/eslint-plugin",
         "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.33.0"
       ],
@@ -106,6 +110,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:2.0.5"
       ],
       [
+        "qs",
+        "npm:6.9.4"
+      ],
+      [
         "standard-version",
         "npm:7.1.0"
       ],
@@ -124,6 +132,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:8.3.5"],
             ["@commitlint/config-conventional", "npm:8.3.4"],
             ["@solid-soda/tsn", "npm:1.2.3"],
+            ["@types/qs", "npm:6.9.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.33.0"],
             ["@typescript-eslint/parser", "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.33.0"],
             ["@yarnpkg/pnpify", "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.0.0-rc.22"],
@@ -140,6 +149,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["lint-staged", "npm:10.2.2"],
             ["prettier", "npm:2.0.5"],
+            ["qs", "npm:6.9.4"],
             ["standard-version", "npm:7.1.0"],
             ["typescript", "patch:typescript@npm%3A3.9.2#builtin<compat/typescript>::version=3.9.2&hash=8cac75"]
           ],
@@ -465,6 +475,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:8.3.5"],
             ["@commitlint/config-conventional", "npm:8.3.4"],
             ["@solid-soda/tsn", "npm:1.2.3"],
+            ["@types/qs", "npm:6.9.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.33.0"],
             ["@typescript-eslint/parser", "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.33.0"],
             ["@yarnpkg/pnpify", "virtual:eeb9610056f20889d6b5f7736c40ee73652a24f9ac6cefc4b395fcb9181a3834aec9503710a7b7665c7daf5a71c5531a66fd19b7503a9c7c97da488c96274f23#npm:2.0.0-rc.22"],
@@ -481,6 +492,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:4.2.5"],
             ["lint-staged", "npm:10.2.2"],
             ["prettier", "npm:2.0.5"],
+            ["qs", "npm:6.9.4"],
             ["standard-version", "npm:7.1.0"],
             ["typescript", "patch:typescript@npm%3A3.9.2#builtin<compat/typescript>::version=3.9.2&hash=8cac75"]
           ],
@@ -626,6 +638,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-parse-json-npm-4.0.0-298522afa6-3.zip/node_modules/@types/parse-json/",
           "packageDependencies": [
             ["@types/parse-json", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/qs", [
+        ["npm:6.9.2", {
+          "packageLocation": "./.yarn/cache/@types-qs-npm-6.9.2-6af869297c-3.zip/node_modules/@types/qs/",
+          "packageDependencies": [
+            ["@types/qs", "npm:6.9.2"]
           ],
           "linkType": "HARD",
         }]
@@ -7097,6 +7118,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/qs-npm-6.5.2-dbf9d8386b-3.zip/node_modules/qs/",
           "packageDependencies": [
             ["qs", "npm:6.5.2"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:6.9.4", {
+          "packageLocation": "./.yarn/cache/qs-npm-6.9.4-7b853cfa85-3.zip/node_modules/qs/",
+          "packageDependencies": [
+            ["qs", "npm:6.9.4"]
           ],
           "linkType": "HARD",
         }]

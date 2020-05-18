@@ -1,3 +1,7 @@
+export interface VenueRequiestOptions {
+  useHistory?: boolean;
+}
+
 export enum VenueKind {
   Breakfast = 'breakfast',
   Lunch = 'lunch',
