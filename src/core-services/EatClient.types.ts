@@ -1,5 +1,5 @@
 export interface VenueRequiestOptions {
-  useHistory?: boolean;
+  skipIds?: string[];
 }
 
 export enum VenueKind {

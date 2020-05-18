@@ -19,9 +19,9 @@ export class EatClient {
   ): Promise<Venue | null> {
     try {
       const query = stringify({
-        userId,
         ...coordinates,
-        ...params,
+        userId,
+        skipIds: params.skipIds || [],
       });
 
       const { data } = await this.http.get<Venue>(`/v1/venue?${query}`);
