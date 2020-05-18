@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/trip-a-trip/lib/compare/v1.3.0...v1.4.0) (2020-05-18)
+
+### Features
+
+- support useHistory ([64e5190](https://github.com/trip-a-trip/lib/commit/64e51909efa83e9a887e638745da09bff25fdf60))
+
 ## [1.3.0](https://github.com/trip-a-trip/lib/compare/v1.2.0...v1.3.0) (2020-05-17)
 
 ### Features
