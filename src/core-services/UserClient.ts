@@ -1,6 +1,6 @@
 import Axios, { AxiosInstance } from 'axios';
 
-import { SignUpResponse } from './UserClient.types';
+import { SignUpResponse, CountResponse } from './UserClient.types';
 
 export class UserClient {
   private readonly http: AxiosInstance;
@@ -15,5 +15,11 @@ export class UserClient {
     const { data } = await this.http.post<SignUpResponse>('/v1/sign-up', {});
 
     return data.userId;
+  }
+
+  async getCount(): Promise<number> {
+    const { data } = await this.http.get<CountResponse>('/v1/count');
+
+    return data.count;
   }
 }
