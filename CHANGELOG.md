@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/trip-a-trip/lib/compare/v1.5.1...v1.6.0) (2020-05-28)
+
+### Features
+
+- **user:** add count endpoint ([634c21b](https://github.com/trip-a-trip/lib/commit/634c21b6eb03a1a377e33e79ee8e59cccacdd245))
+
 ### [1.5.1](https://github.com/trip-a-trip/lib/compare/v1.5.0...v1.5.1) (2020-05-18)
 
 ### Bug Fixes
