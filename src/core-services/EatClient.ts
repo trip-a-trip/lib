@@ -1,7 +1,12 @@
 import Axios, { AxiosInstance } from 'axios';
 import { stringify } from 'qs';
 
-import { Venue, Coordinates, VenueRequiestOptions } from './EatClient.types';
+import {
+  Venue,
+  Coordinates,
+  VenueRequiestOptions,
+  Seen,
+} from './EatClient.types';
 
 export class EatClient {
   private readonly http: AxiosInstance;
@@ -10,6 +15,17 @@ export class EatClient {
     this.http = Axios.create({
       baseURL: serviceUrl,
     });
+  }
+
+  async fetchHistory(from: Date, to: Date): Promise<Seen[]> {
+    const query = stringify({
+      from,
+      to,
+    });
+
+    const { data } = await this.http.get(`/v1/history?${query}`);
+
+    return data.map((item: any) => ({ ...item, date: new Date(item.date) }));
   }
 
   async findVenue(

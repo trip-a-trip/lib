@@ -30,3 +30,9 @@ export interface Venue {
   coordinates: Coordinates;
   links: Link[];
 }
+
+export interface Seen {
+  userId: string;
+  venueId: string;
+  date: Date;
+}
