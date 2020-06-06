@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/trip-a-trip/lib/compare/v1.7.0...v1.8.0) (2020-06-06)
+
+### Features
+
+- **eat:** add venue creation method ([d9f4626](https://github.com/trip-a-trip/lib/commit/d9f462650cefde15222f6260ef5e5a029a0823f2))
+
 ## [1.7.0](https://github.com/trip-a-trip/lib/compare/v1.6.0...v1.7.0) (2020-05-29)
 
 ### Features
