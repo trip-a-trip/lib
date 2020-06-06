@@ -17,6 +17,10 @@ export class EatClient {
     });
   }
 
+  async createVenue(fields: Venue): Promise<void> {
+    await this.http.post('/v1/venue', fields);
+  }
+
   async fetchHistory(from: Date, to: Date): Promise<Seen[]> {
     const query = stringify({
       from,

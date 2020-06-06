@@ -29,6 +29,7 @@ export interface Venue {
   address?: string;
   coordinates: Coordinates;
   links: Link[];
+  authorId: string | null;
 }
 
 export interface Seen {
