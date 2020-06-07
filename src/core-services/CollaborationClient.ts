@@ -10,7 +10,7 @@ export class CollaborationClient {
   }
 
   async moderate(
-    approved: true,
+    approved: boolean,
     draftId: string,
     moderatorId: string,
   ): Promise<void> {
