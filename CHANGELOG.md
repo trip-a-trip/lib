@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/trip-a-trip/lib/compare/v1.8.0...v1.9.0) (2020-06-07)
+
+### Features
+
+- **shared:** add bull constants ([c0d580c](https://github.com/trip-a-trip/lib/commit/c0d580c74e2100aae315344c16e531f4b9aea498))
+
 ## [1.8.0](https://github.com/trip-a-trip/lib/compare/v1.7.0...v1.8.0) (2020-06-06)
 
 ### Features
