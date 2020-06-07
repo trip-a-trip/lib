@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/trip-a-trip/lib/compare/v1.10.0...v1.11.0) (2020-06-07)
+
+### Features
+
+- **collaboration:** add collaboration client ([31dc409](https://github.com/trip-a-trip/lib/commit/31dc4099a3b98add8bf489277a467919fbaae5a7))
+
 ## [1.10.0](https://github.com/trip-a-trip/lib/compare/v1.9.0...v1.10.0) (2020-06-07)
 
 ### Features
