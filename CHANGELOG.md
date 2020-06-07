@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.1](https://github.com/trip-a-trip/lib/compare/v1.11.0...v1.11.1) (2020-06-07)
+
+### Bug Fixes
+
+- **collaboration:** fix typing of moderate method ([67a8f65](https://github.com/trip-a-trip/lib/commit/67a8f658e353634d36bee18c22976f453ea10c86))
+
 ## [1.11.0](https://github.com/trip-a-trip/lib/compare/v1.10.0...v1.11.0) (2020-06-07)
 
 ### Features
