@@ -15,3 +15,13 @@ export interface Draft {
 
   moderatorId?: string;
 }
+
+export interface Collaborator {
+  userId: string;
+
+  rating: number;
+
+  canInvite: boolean;
+
+  canPublish: boolean;
+}

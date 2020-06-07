@@ -1,4 +1,5 @@
 import Axios, { AxiosInstance } from 'axios';
+import { Collaborator } from './CollaborationClient.types';
 
 export class CollaborationClient {
   private readonly http: AxiosInstance;
@@ -7,6 +8,14 @@ export class CollaborationClient {
     this.http = Axios.create({
       baseURL: serviceUrl,
     });
+  }
+
+  async getProfile(userId: string) {
+    const { data } = await this.http.get<Collaborator>(
+      `/v1/collaborator/profile/${userId}`,
+    );
+
+    return data;
   }
 
   async createInvite(userId: string) {
