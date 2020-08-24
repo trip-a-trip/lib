@@ -16,10 +16,4 @@ export class UserClient {
 
     return data.userId;
   }
-
-  async getCount(): Promise<number> {
-    const { data } = await this.http.get<CountResponse>('/v1/count');
-
-    return data.count;
-  }
 }
