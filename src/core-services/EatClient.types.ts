@@ -31,9 +31,3 @@ export interface Venue {
   links: Link[];
   authorId: string | null;
 }
-
-export interface Seen {
-  userId: string;
-  venueId: string;
-  date: Date;
-}
