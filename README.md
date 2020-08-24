@@ -1,6 +1,6 @@
 # @trip-a-trip/lib
 
-Trip-a-Trip core-service's clients.
+JavaScript library with Trip-Trip service's clients and common types
 
 ## Release
 
