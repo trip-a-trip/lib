@@ -1,5 +1,5 @@
 export interface SignUpResponse {
-  userId: string;
+  id: string;
 }
 
 export interface CountResponse {
