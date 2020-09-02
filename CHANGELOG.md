@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/trip-a-trip/lib/compare/v1.14.0...v1.15.0) (2020-09-02)
+
+
+### Features
+
+* remove deprecated methods ([8243b68](https://github.com/trip-a-trip/lib/commit/8243b6882592bd438f5c6f6da93937805fc2b1f9))
+
+
+### Bug Fixes
+
+* **user:** fix response id ([de116fe](https://github.com/trip-a-trip/lib/commit/de116fee6978c2065ef201dea1c1adfdb813e26d))
+
 ## [1.14.0](https://github.com/trip-a-trip/lib/compare/v1.13.0...v1.14.0) (2020-08-24)
 
 
